@@ -9,21 +9,21 @@ url:
 
 # Owner/author information
 owner:
-  name:           Your Name
-  avatar:         avatar.jpg
+  name:           Nate Sauder
+  avatar:         nate_avatar.jpg
   bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
   email:          nathanielsauder@gmail.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        
   facebook:       
-  github:         
+  github:         https://github.com/nsauder
   stackexchange:  
-  linkedin:       
+  linkedin:       www.linkedin.com/in/natesauder
   instagram:      
   flickr:         
   tumblr:         
   # google plus id, include the '+', eg +mmistakes
-  google_plus:    +yourid
+  google_plus:    
 
 # Background image to be tiled on all pages
 background: 
@@ -35,7 +35,7 @@ google_verify:
 bing_verify:         
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    America/San_Francisco
 future:      true
 highlighter: pygments
 markdown:    kramdown

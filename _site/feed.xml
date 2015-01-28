@@ -4,10 +4,10 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2015-01-28T04:30:59-05:00</updated>
+<updated>2015-01-28T09:51:37+00:00</updated>
 <id>/</id>
 <author>
-  <name>Your Name</name>
+  <name>Nate Sauder</name>
   <uri>/</uri>
   <email>nathanielsauder@gmail.com</email>
 </author>
@@ -17,10 +17,10 @@
   <title type="html"><![CDATA[Streetscope]]></title>
  <link rel="alternate" type="text/html" href="/streetscope/" />
   <id>/streetscope</id>
-  <published>2015-01-26T00:00:00-05:00</published>
-  <updated>2015-01-26T00:00:00-05:00</updated>
+  <published>2015-01-26T00:00:00+00:00</published>
+  <updated>2015-01-26T00:00:00+00:00</updated>
   <author>
-    <name>Your Name</name>
+    <name>Nate Sauder</name>
     <uri></uri>
     <email>nathanielsauder@gmail.com</email>
   </author>
@@ -56,7 +56,7 @@
 
 &lt;p&gt;This demonstration thus provides promising results for applying deep learning algorithms to classify regions with high levels of crime. Not only does this have profound implications for how methodological research in the social sciences can be done, but it can potentially inform how to effectively distribute police in high crime areas. However, our convolutional neural network architecture is currently a black box that is unable to incorporate additional knowledge from human experts (police and social scientists). Police often have great deal of local expertise. Incorporating that information into this algorithm can not only improve its performance, but more importantly increase its application to more granular tasks such as more specific crimes or more local regions. In the next phase of this project, we will unravel the blackbox by visualizing the receptive fields that are being activated in the neural network architecture and build an online web application that will take user input to improve the algorithm’s performance.&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;/streetscope/&quot;&gt;Streetscope&lt;/a&gt; was originally published by Your Name at &lt;a href=&quot;&quot;&gt;Nate's Corner&lt;/a&gt; on January 26, 2015.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;/streetscope/&quot;&gt;Streetscope&lt;/a&gt; was originally published by Nate Sauder at &lt;a href=&quot;&quot;&gt;Nate's Corner&lt;/a&gt; on January 26, 2015.&lt;/p&gt;</content>
 </entry>
 
 </feed>
