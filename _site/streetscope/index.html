@@ -1,0 +1,238 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Streetscope &#8211; Nate's Corner</title>
+<meta name="description" content="Seeing is Believing: Applying Deep Learning to Identify Crime Hot Spots">
+<meta name="keywords" content="">
+
+
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Streetscope">
+<meta property="og:description" content="Seeing is Believing: Applying Deep Learning to Identify Crime Hot Spots">
+<meta property="og:url" content="/streetscope/">
+<meta property="og:site_name" content="Nate's Corner">
+
+
+
+
+
+<link rel="canonical" href="/streetscope/">
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Nate's Corner Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<!-- Webfonts -->
+<link href="//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic" rel="stylesheet" type="text/css">
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- Load Modernizr -->
+<script src="/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/apple-touch-icon-144x144-precomposed.png">
+
+
+
+
+<style type="text/css">body {background-image:url(/images/chicagoloop.jpg);}</style>
+
+
+</head>
+
+<body id="post" class="feature">
+
+<!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
+<nav id="dl-menu" class="dl-menuwrapper" role="navigation">
+	<button class="dl-trigger">Open Menu</button>
+	<ul class="dl-menu">
+		<li><a href="/">Home</a></li>
+		<li>
+			<a href="#">About</a>
+			<ul class="dl-submenu">
+				<li>
+					<img src="/images/avatar.jpg" alt="Your Name photo" class="author-photo">
+					<h4>Your Name</h4>
+					<p>Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice.</p>
+				</li>
+				<li><a href="/about/"><span class="btn btn-inverse">Learn More</span></a></li>
+				<li>
+					<a href="mailto:nathanielsauder@gmail.com"><i class="fa fa-fw fa-envelope"></i> Email</a>
+				</li>
+				
+				
+				<li>
+					<a href="https://google.com/+yourid"><i class="fa fa-fw fa-google-plus"></i> Google+</a>
+				</li>
+				
+				
+				
+				
+				
+				
+			</ul><!-- /.dl-submenu -->
+		</li>
+		<li>
+			<a href="#">Posts</a>
+			<ul class="dl-submenu">
+				<li><a href="/posts/">All Posts</a></li>
+				<li><a href="/tags/">All Tags</a></li>
+			</ul>
+		</li>
+		
+	    
+	        
+	    
+	    <li><a href="/theme-setup/" >Theme Setup</a></li>
+	  
+	    
+	        
+	        
+	    <li><a href="http://mademistakes.com" target="_blank">External Link</a></li>
+	  
+	</ul><!-- /.dl-menu -->
+</nav><!-- /.dl-menuwrapper -->
+
+
+
+<div class="entry-header">
+  
+  <div class="entry-image">
+    <img src="/images/abstract-2s.jpg" alt="Streetscope">
+  </div><!-- /.entry-image -->
+</div><!-- /.entry-header -->
+
+
+<div id="main" role="main">
+  <article class="hentry">
+    <header class="header-title">
+      <div class="header-title-wrap">
+        
+          <h1 class="entry-title"><a href="/streetscope/" rel="bookmark" title="Streetscope">Streetscope</a></h1>
+        
+        <h2><span class="entry-date date published"><time datetime="2015-01-26T00:00:00-05:00">January 26, 2015</time></span></h2>
+        
+        <p class="entry-reading-time">
+          <i class="fa fa-clock-o"></i>
+          
+          Reading time ~2 minutes
+        </p><!-- /.entry-reading-time -->
+        
+      </div><!-- /.header-title-wrap -->
+    </header>
+    <div class="entry-content">
+      <p>“Broken Windows” theory argues that the mere perception of disorder in a neighborhood significantly increases crime in that area. George L. Kelling and James Q. Wilson’s seminal work, “Broken Windows”, provides the following example:</p>
+
+<p><em>“Consider a building with a few broken windows. If the windows are not repaired, the tendency is for vandals to break a few more windows. Eventually, they may even break into the building, and if it’s unoccupied, perhaps become squatters or light fires inside.”</em></p>
+
+<p>Since that first article in 1982, social scientists have designed extensive surveys and experiments to both validate and refute the “broken windows” hypothesis. Even before Killing and Wilson’s article, Philip Zimbardo, a psychologist from Stanford, empirically tested this theory by setting up abandoned automobiles with no license plates and observing how long it took the surrounding population began vandalizing the cars. Zimbardo eventually concluded that the initial abandonment precipitated the subsequent looting. Modern approaches for testing this theory involve designing longitudinal studies and creating econometric models to test the causal relationship between neighborhood disorder and actual crime. These approaches, however, require years of manual data collection. In addition to being time consuming, the causal models built to test the “broken windows” hypothesis require a great deal of statistical assumptions and instruments to control for other factors, e.g. demographics, income levels, unemployment rate, and others alike, that correlate with crime. These studies, however, fail to directly incorporate the primary modality of the theory, which are the “broken windows” themselves. In this project, we use street level images collected from Google’s Streetview API to predict crime rates in neighborhoods across Chicago and New York. Our approach directly tests the relationship between the overall the perception of safety in a given neighborhood and the crime levels in a given neighborhood. As prescribed by the “Broken Windows” hypothesis, high crime regions are associated with dilapidated businesses, abandoned buildings, and graffiti and vandalism. Our approach takes advantage of the state of the art results in deep learning and computer vision by applying a Convolutional Neural Network to classify high crime images from low crime images.</p>
+
+<p>One of the main puzzles that continues to challenge criminologists is explaining the variations in crime and socioeconomic welfare between nearby areas in a given city. For example, in New York, while distinction between the Manhattan and South Bronx is a very subtle geographically, the number of homicides in the two regions paints a very different story. We can find a more salient of this problem example in Chicago (See Chicago Crime Map). In Chicago, the neighborhoods of Hyde Park and Woodlawn are only separated by a couple of blocks, but the median income in Hyde Park is nearly $15,000 higher and the number of monthly violent crimes in Woodlawn nearly triples the number in Hyde Park. The following map from the Urban Land Institute and the Institute for Housing Studies further reinforces this story as minor geographic differences often amount to significant differences in foreclosure and vacancy rate in the South Side of Chicago.</p>
+
+<figure>
+    <img src="/images/chicago_crime.png" alt="" />
+   	<figcaption>Chicago Vacancies and Foreclosures.</figcaption>
+</figure>
+
+<p>Although geographical distinction between Hyde Park and Woodlawn doesn’t always explain the underlying the fundamental differences in socioeconomics within large cities, it becomes much more apparent if you can simply walk around the area. To reinforce this idea, we randomly sampled few images from Hyde Park and Woodlawn. In Hyde Park, we see images of cafes, apartment buildings, and college residential halls. Meanwhile, Woodlawn images are comprised of graffiti and two homes that seems abandoned. In these images, the differences between the two bordering neighborhoods become extremely apparent.</p>
+
+<figure class="half">
+	<img src="/images/hyde_park.png" alt="" />
+	<img src="/images/woodlawn.png" alt="" />
+	<figcaption>Left: Hyde Park             Right: Woodlawn.</figcaption>
+</figure>
+
+<p>Using this intuition, we were curious to see if we can see such clear differences across similar types of neighborhoods in Chicago and New York. However, it would be extremely time consuming for humans to manually inspect thousands of street view images. We can take advantage of the latest research in deep learning, which often performs as well as humans in Image classification tasks.</p>
+
+<p>We downloaded nearly 250,000 street view images across New York and Chicago from Google’s Streetview API. For each image, we had the latitude and longitude coordinates, which allowed us to figure out whether the image was from a low crime, average crime, or high crime region. Using these labels for each of the images, we trained the the state of the art convolutional neural network on 70% of the images, while the remaining 30% was used to validate the effectiveness of our approach. Likewise, on the held out data, we were able to predict whether the image was from high, average, or low crime neighborhood with nearly 95% accuracy.</p>
+
+<figure>
+    <img src="/images/conv_net.png" alt="" />
+   	<figcaption>Basic Convolutional Neural Network Architecture.</figcaption>
+</figure>
+
+<p>This demonstration thus provides promising results for applying deep learning algorithms to classify regions with high levels of crime. Not only does this have profound implications for how methodological research in the social sciences can be done, but it can potentially inform how to effectively distribute police in high crime areas. However, our convolutional neural network architecture is currently a black box that is unable to incorporate additional knowledge from human experts (police and social scientists). Police often have great deal of local expertise. Incorporating that information into this algorithm can not only improve its performance, but more importantly increase its application to more granular tasks such as more specific crimes or more local regions. In the next phase of this project, we will unravel the blackbox by visualizing the receptive fields that are being activated in the neural network architecture and build an online web application that will take user input to improve the algorithm’s performance.</p>
+
+      <footer class="entry-meta">
+        <span class="entry-tags"></span>
+        
+        <div class="social-share">
+  <ul class="socialcount socialcount-small inline-list">
+    <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=/streetscope/" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
+    <li class="twitter"><a href="https://twitter.com/intent/tweet?text=/streetscope/" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
+    <li class="googleplus"><a href="https://plus.google.com/share?url=/streetscope/" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
+  </ul>
+</div><!-- /.social-share -->
+      </footer>
+    </div><!-- /.entry-content -->
+    <section id="disqus_thread"></section><!-- /#disqus_thread -->
+    <div class="read-more">
+  
+  <div class="read-more-list">
+    
+  </div><!-- /.read-more-list -->
+</div><!-- /.read-more -->
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    <span>&copy; 2015 Your Name. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> using the <a href="http://mademistakes.com/hpstr/" rel="notfollow">HPSTR Theme</a>.</span>
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="/assets/js/scripts.min.js"></script>
+
+
+
+
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'ncsblog'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function () {
+            var s = document.createElement('script'); s.async = true;
+            s.type = 'text/javascript';
+            s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+	        
+
+</body>
+</html>
